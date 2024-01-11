@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-weight: bolder;
+    
+    
+ }
+body{
+    background-color: rgb(238, 212, 216);
+    text-align: center;
+}
+
+.game{
+    margin-left: 510px;
+    gap: 1.5vmin;
+  height: 70vh;
+  width: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#buttons:hover{
+    background-color: rgb(92, 130, 235);
+}
+#buttons{
+  background-color: rgb(135, 32, 232);
+  color: aliceblue;
+    gap: 1.5vmin;
+    margin-top: 2rem; 
+    height:  150px;
+    width: 150px;
+    border-radius: 23px;
+    font-size: 130px
+    
+   
+  
+}
+#restart:hover{
+    background-color: rgb(172, 228, 228);
+}
+#restart{
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: black;
+    margin-top: 4rem;
+    height: 5rem;
+    width: 13rem;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
